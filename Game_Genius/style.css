@@ -14,7 +14,7 @@ body {
 .genius {
     display: grid;
     grid-template-areas: 'verde vermelho'
-    'amarelo azul';
+    'laranja azul';
     grid-gap: 10px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
@@ -36,8 +36,8 @@ body {
 }
 
 .yellow {
-    grid-area: amarelo;
-    background-color: yellow;
+    grid-area: laranja;
+    background-color: rgb(201, 89, 173);
     border-bottom-left-radius: 100%;
 }
 
@@ -48,7 +48,5 @@ body {
 }
 
 .selected {
-    opacity: 0.4;
+    opacity: 0.8;
 }
-
-
